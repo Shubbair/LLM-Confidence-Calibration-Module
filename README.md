@@ -1,5 +1,8 @@
 # Confidecne Verbal Calibration
 
+<img src="example.png" />
+
+
 Based on **Qwen2.5-1.5B**
 
 ## data_init.py

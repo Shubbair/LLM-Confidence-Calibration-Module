@@ -332,7 +332,7 @@ Return only 0 or 1.
 
     return None
 
-df = pd.read_csv("datasets/Qwen2.5-1.5B-Instruct-TriviaQA-1500-Sample.csv")
+df = pd.read_csv("datasets/Qwen2.5-1.5B-Instruct-TriviaQA-2000-Sample.csv")
 
 all_results = []
 

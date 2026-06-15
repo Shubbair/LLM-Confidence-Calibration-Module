@@ -11,9 +11,9 @@ Understand the effectiveness of signals based on it's confidence score metrics (
 ## confidence_dataset_preparation
 use the dataset from *data_init.py* calculate confidence score using reliability-weighted fusion : 
 
-$
+$$
 C = \frac{\sum_{i=1}^{n} \frac{p_i}{\epsilon_i}}{\sum_{i=1}^{n} \frac{1}{\epsilon_i}}
-$
+$$
 
 Where:
 

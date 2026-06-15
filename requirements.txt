@@ -1,0 +1,9 @@
+tqdm 
+pandas 
+datasets 
+transformers 
+sentence_transformers 
+accelerate
+pandas 
+scikit-learn
+torch

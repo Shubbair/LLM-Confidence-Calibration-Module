@@ -8,7 +8,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import brier_score_loss
 from sklearn.preprocessing import StandardScaler
 
-df = pd.read_json('Qwen 2.5 Judge Answer.json')
+df = pd.read_json('datasets/Qwen 2.5 Judge Answer.json')
 
 def compute_ece(confidences, correctness, n_bins=10):
     confidences = np.array(confidences)

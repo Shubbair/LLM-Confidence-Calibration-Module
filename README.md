@@ -1,10 +1,9 @@
-# CC with verbal description
+# Confidecne Verbal Calibration
 
-## Experiment 0
+## data_init.py
+download the 
 
-* first attempt *
-
-## Experiment 1
+## Experiment 2
 
 
 ### Reliability-weighted fusion

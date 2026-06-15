@@ -33,6 +33,8 @@ Fine-tuning model on calibrated dataset and get good result with loss :
 
 fine-tune model weights : `Qlora Qwen 2.5 Model Weights.zip`
 
+Research plan and results : `Research Idea.py`
+
 Realtime Experiment : https://huggingface.co/spaces/Shubbair/Confidece-Clibaration-Qwen2.5-1.5B <br/>
 Model Weights on Huggingface : https://huggingface.co/Shubbair/Qwen2.5-1.5B-Confidence-Calibration
 

@@ -287,7 +287,7 @@ for idx, sample in tqdm(enumerate(qa_dataset)):
 df = pd.DataFrame(rows)
 
 df.to_csv(
-    "Qwen2.5-1.5B-Instruct-TriviaQA-1500-Sample.csv",
+    "datasets/Qwen2.5-1.5B-Instruct-TriviaQA-1500-Sample.csv",
     index=False
 )
 
@@ -332,7 +332,7 @@ Return only 0 or 1.
 
     return None
 
-df = pd.read_csv("Qwen2.5-1.5B-Instruct-TriviaQA-1500-Sample.csv")
+df = pd.read_csv("datasets/Qwen2.5-1.5B-Instruct-TriviaQA-1500-Sample.csv")
 
 all_results = []
 
@@ -359,7 +359,7 @@ for _, row in tqdm(df.iterrows()):
     })
 
 # Define the output JSON filename
-output_json_filename = "Qwen_2.5_1.5B_judge_answer.json"
+output_json_filename = "datasets/Qwen_2.5_1.5B_judge_answer.json"
 
 # Save the results to a JSON file
 with open(output_json_filename, 'w') as f:
